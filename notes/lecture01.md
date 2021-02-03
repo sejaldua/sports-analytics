@@ -1,0 +1,31 @@
+## Lecture 1: Bayes' Theorem
+
+- 3 sports of focus: football, basketball, baseball
+- 3 principles
+    - numerically grounded
+    - explainable (in English)
+        - Chad Bradford
+            - sidearm / underhand pitch
+            - closer to plate
+            - up then down makes batters swing too high
+        - Ricky Davis
+            - free agent racking up stats as point guard
+        - Damian Lillard
+            - shoots from way behind the 3-point line
+    - actionable
+- shot ability vs. shot probability
+    - good shooter (high shot ability), bad shots (low shot probability)
+    - bad shooter (low shot ability), good shots (high shot probability)
+- Rajiv ⇒ Second Spectrum (NBA tracking software)
+- More information should improve predictive accuracy
+    - More information tends to increase predictive confidence faster than it increases predictive accuracy
+    - People tend to be biased towards their most recent observations
+    - Rare events can be difficult to quantify with sampling data
+    - Human bias can both influence and outstrip sampling errors.
+- Bayes Theorem (see Nate Silver)
+    - $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$ 
+      - ASSUMPTION: A & B are independent
+      - P(B) = likelihood influence of new evidence
+      - P(A) = prior = what we know before we receive new information
+      - P(A|B) = posterior 
+    - $P(A|B) = \frac{P(B|A)P(A)}{P(A)P(B|A)+P(¬A)P(B|¬A)}$  
