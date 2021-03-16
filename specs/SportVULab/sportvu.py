@@ -3,6 +3,7 @@ import json
 import matplotlib.pyplot as plt
 import matplotlib
 import numpy as np
+
 # Feel free to add anything else you need here
 
 # Read the event log into an array of dictionaries
@@ -16,7 +17,8 @@ with open('0021500495.csv', mode='r') as event_csv:
 # Read in the SportVU tracking data
 sportvu = []
 with open('0021500495.json', mode='r') as sportvu_json:  
-    sportvu = json.load(sportvu_json)
+    sportvu = json.load(sportvu_json, indent=4)
+print(sportvu)
 
 
 
