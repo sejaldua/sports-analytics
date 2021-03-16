@@ -18,7 +18,6 @@ with open('0021500495.csv', mode='r') as event_csv:
 sportvu = []
 with open('0021500495.json', mode='r') as sportvu_json:  
     sportvu = json.load(sportvu_json, indent=4)
-print(sportvu)
 
 
 
