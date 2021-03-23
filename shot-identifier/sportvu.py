@@ -178,3 +178,4 @@ plt.legend(ncol=5, loc='upper left')
 
 plt.tight_layout()
 plt.show()
+# fig.savefig("Shot_Timeline.png")
