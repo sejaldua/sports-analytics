@@ -44,7 +44,7 @@ ax.spines['top'].set_color('none')
 ax.spines['right'].set_color('none')
 ax.spines['left'].set_color('none')
 ax.tick_params(axis='x', length=20)
-ax.xaxis.set_major_locator(matplotlib.ticker.FixedLocator([0,180,360,520,720])) 
+ax.xaxis.set_major_locator(matplotlib.ticker.FixedLocator([0,720,1440,2080,2880])) 
 ax.set_yticks([])
 
 _, xmax = ax.get_xlim()
