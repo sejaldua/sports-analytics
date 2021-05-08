@@ -15,7 +15,8 @@ All project-based work will revolve around 3 core pillars:
 
 where `A = Team X wins a game` and `B = Team X makes more 3-PT shots in the first half, relative to their opponent`
 
-![posterior plot](01-bayesian-basketball/posterior_plot_all_teams.png)
+<img src="01-bayesian-basketball/posterior_plot_all_teams.png" width="400">
+
 ## Draft Lab
 
 **Context**: Draft day is one of the most important events of the year for professional sports teams. In addition to drafting individual players after months of evaluation, teams will also wheel and deal over the picks themselves.
