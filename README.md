@@ -23,9 +23,7 @@ where `A = Team X wins a game` and `B = Team X makes more 3-PT shots in the firs
 
 **Goal**: Build a program that will evaluate a given pick trade as successful (your team stands to either gain or maintain value), or as a mistake (your team standsto lose value)
 
-<img src="02-draft-day/corrmatrix.png" width="400">  
-
-<img src="02-draft-day/feature_correlations.png" width="600">  
+<img src="02-draft-day/corrmatrix.png" width="400"><img src="02-draft-day/feature_correlations.png" width="600">  
 
 <img src="02-draft-day/yhat_vs_ytrue.png" width="400">  
 
@@ -35,11 +33,11 @@ where `A = Team X wins a game` and `B = Team X makes more 3-PT shots in the firs
 
 **Goal**: Your shot identifying program will comprise the other half of your grade. The provided starter code supplies you with two arrays that you need to populate. The first, `shot_times`, must contain the time of each shot that you identify, expressed in seconds since the beginning of the game. The second array, `shot_facts`, expresses some numerical attribute of your choosing for each shot. Distance from basket or nearest defender are both suitable choices. This attribute must be scaled to a value between 0 and 10.
 
-![shot chart](03-shot-selection/figures/shot_chart.png)
+<img src="03-shot-selection/figures/shot_chart.png" width="400">  
 
-![distance timeline](03-shot-selection/figures/distance.png)
+<img src="03-shot-selection/figures/distance.png" width="600">  
 
-![shot clock usage timeline](03-shot-selection/figures/shot_clock_usage.png)
+<img src="03-shot-selection/figures/shot_clock_usage.png" width="600">  
 
 
 
