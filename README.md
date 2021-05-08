@@ -1,5 +1,5 @@
 # sports-analytics
-COMP152: Sports Analytics
+COMP152: Sports Analytics | Taught by Megan Monroe | Tufts University Spring 2021
 
 All project-based work will revolve around 3 core pillars:
 1. English Explanation
