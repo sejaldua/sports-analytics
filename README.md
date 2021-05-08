@@ -9,9 +9,9 @@ All project-based work will revolve around 3 core pillars:
 
 **Goal**: Scrape data from [www.sports-reference.com](https://sports-reference.com) to inform the variables in Bayes Theorem for an event A and B of your choosing.
 
-$$P(A|B) = \frac{P(B|A)P(A)}{P(B|A)P(A) + P(B|¬A)P(¬A)}$$
+`$$P(A|B) = \frac{P(B|A)P(A)}{P(B|A)P(A) + P(B|¬A)P(¬A)}$$`
 
-where $A = \text{Team X wins a game}$ and $B = \text{Team X makes more 3-PT shots in the first half, relative to their opponent}$  
+where `$A = \text{Team X wins a game}$` and `$B = \text{Team X makes more 3-PT shots in the first half, relative to their opponent}$`
 
 ## Draft Lab
 
