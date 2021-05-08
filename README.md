@@ -1,5 +1,5 @@
 # sports-analytics
-COMP152: Sports Analytics | Taught by Megan Monroe | Tufts University Spring 2021
+Project work from COMP152: Sports Analytics | Tufts University Spring 2021
 
 All project-based work will revolve around 3 core pillars:
 1. English Explanation
@@ -7,15 +7,26 @@ All project-based work will revolve around 3 core pillars:
 3. Actionable
 ## Web Scraping Lab: Bayesian Basketball
 
+**Context**: In this lab, you will get practice with the key skill of web scraping, while also demonstrating that you are a master Bayesian.
+
 **Goal**: Scrape data from [www.sports-reference.com](https://sports-reference.com) to inform the variables in Bayes Theorem for an event A and B of your choosing.
 
 <img src="https://render.githubusercontent.com/render/math?math=P(A|B) = \frac{P(B|A)P(A)}{P(B|A)P(A) + P(B|\neg A)P(\neg A)}">
 
 where `A = Team X wins a game` and `B = Team X makes more 3-PT shots in the first half, relative to their opponent`
 
+![posterior plot](01-bayesian-basketball/posterior_plot_all_teams.png)
 ## Draft Lab
 
+**Context**: Draft day is one of the most important events of the year for professional sports teams. In addition to drafting individual players after months of evaluation, teams will also wheel and deal over the picks themselves.
+
 **Goal**: Build a program that will evaluate a given pick trade as successful (your team stands to either gain or maintain value), or as a mistake (your team standsto lose value)
+
+![correlation matrix](02-draft-day/corrmatrix.png)
+
+![feature correlations](02-draft-day/feature_correlations.png)
+
+![predicted value](02-draft-day/yhat_vs_ytrue.png)
 
 ## SportVU Lab
 
