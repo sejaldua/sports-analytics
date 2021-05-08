@@ -15,7 +15,7 @@ All project-based work will revolve around 3 core pillars:
 
 where `A = Team X wins a game` and `B = Team X makes more 3-PT shots in the first half, relative to their opponent`
 
-<img src="01-bayesian-basketball/posterior_plot_all_teams.png" width="400">
+<img src="01-bayesian-basketball/posterior_plot_all_teams.png" width="400">  
 
 ## Draft Lab
 
@@ -23,11 +23,11 @@ where `A = Team X wins a game` and `B = Team X makes more 3-PT shots in the firs
 
 **Goal**: Build a program that will evaluate a given pick trade as successful (your team stands to either gain or maintain value), or as a mistake (your team standsto lose value)
 
-![correlation matrix](02-draft-day/corrmatrix.png)
+<img src="02-draft-day/corrmatrix.png" width="400">  
 
-![feature correlations](02-draft-day/feature_correlations.png)
+<img src="02-draft-day/feature_correlations.png" width="600">  
 
-![predicted value](02-draft-day/yhat_vs_ytrue.png)
+<img src="02-draft-day/yhat_vs_ytrue.png" width="400">  
 
 ## SportVU Lab
 
